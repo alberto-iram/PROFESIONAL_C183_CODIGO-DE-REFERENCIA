@@ -112,7 +112,7 @@ export default class Main extends React.Component {
         if (hasCameraPermission === false) {
             return (
                 <View style={styles.container}>
-                    <Text>No access to camera</Text>
+                    <Text>Sin acceso a la cámara</Text>
                 </View>
             )
         }
@@ -124,7 +124,7 @@ export default class Main extends React.Component {
                         <Text style={styles.titleText1}>FR</Text><Text style={styles.titleText2}>APP</Text>
                     </View>
                     <View style={{ flexDirection: 'row', flexWrap: 'wrap' }}>
-                        <Text style={styles.subheading1}>Try Our</Text><Text style={styles.subheading2}> Cool Frames</Text>
+                        <Text style={styles.subheading1}>Prueba nuestras</Text><Text style={styles.subheading2}> gafas</Text>
                     </View>
                 </View>
                 <View style={styles.cameraStyle}>
